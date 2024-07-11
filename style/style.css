@@ -1,0 +1,263 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 100px;
+}
+
+nav button {
+  padding: 12px 18px;
+  background: transparent;
+  border-radius: 8px;
+
+}
+
+.btn-secendary {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 8px;
+  padding: 21px 24px 21px 24px;
+}
+
+.banner {
+  height: 652px;
+  border: 2px dashed rgba(123, 123, 123, 0.267);
+  background-image: url("/assets/Hero-bg.png");
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+
+}
+
+.nav-title {
+  font-weight: 900;
+  font-size: 80px;
+
+}
+
+.normal {
+  color: aqua;
+}
+
+.developer-section {
+  width: 1140px;
+  margin: 48px auto;
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.02);
+  padding: 88px 97px;
+}
+.dev-heading{
+  text-align: center;
+}
+.pain-title{
+  text-align: center;
+}
+.web-title{
+  font-weight: 800px;
+  font-size: 32px;
+  color: rgb(13, 19, 33);
+  text-align: center;
+  padding: 24px 100px;
+
+}
+
+.pain{
+  width: 1140px;
+  margin: 48px auto;
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.02);
+  padding: 88px 97px;
+}
+.pain h1{
+  font-weight: 800px;
+  font-size: 48px;
+}
+
+.center{
+  text-align: center;
+}
+
+.web-description {
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+
+
+
+
+.card-container {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+  margin-top: 32px;
+}
+
+
+.card-content h3 {
+  font-size: 28px;
+  font-weight: 700px;
+}
+
+.card-content button {
+  padding: 12px 18px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+#card-2 {
+  flex-direction: row-reverse;
+}
+
+.inspiration-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.inspiration-section h1{
+  font-size: 48px;
+  font-weight: 800;
+}
+
+
+#video {
+  margin-top: 48px;
+  border-radius: 16px;
+  border: 1px solid grey;
+  padding: 32px;
+}
+
+.section-title{
+  font-weight: 800px;
+  font-size: 48px;
+  color: rgb(13, 19, 33);
+  text-align: center;
+  padding: 24px 100px;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* .skill style  */
+.skill-container{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ gap: 30px;
+}
+
+/* .skill-section */
+
+
+.skill-1{
+  padding: 40px;
+  width: 364px;
+  height: 300px;
+  /* box-shadow: 0px 6px 50px 0px; */
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05); 
+}
+
+.skill-2{
+  padding: 40px;
+  width: 364px;
+  height: 300px;
+  /* box-shadow: 0px 6px 50px 0px; */
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.skill-3{
+  padding: 40px;
+  width: 364px;
+  height: 300px;
+  /* box-shadow: 0px 6px 50px 0px; */
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.skill-description{
+text-align: left;
+margin: 16px 0px;
+}
+
+.skill-title{
+  text-align: left;
+  font-weight: 800;
+  font-size: 24px;
+  
+}
+.link{
+  margin-right: 150px;
+ color: rgb(13, 19, 33);
+ font-size: 16px;
+ font-weight:bold;
+}
+
+.get-uniqe-section{
+  width: 1140px;
+  height: 400px;
+  margin: 80px auto;
+  border-radius: 8px;
+  background-image: linear-gradient(360deg,rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("../assets/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-uniqe-contant{
+ display: flex; 
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 24px;
+ color: rgb(255, 255, 255);
+}
+.get-uniqe-contant h2{
+  font-size: 32px;
+  font-weight: 900;
+}
+.get-uniqe-contant input button{
+padding: 16px 18px;
+border-radius: 8px;
+border: none;
+outline: none;
+}
+.get-uniqe-contant button{
+  font-weight: 600;
+  font-size: 16px;
+}
+.get-uniqe-contant input{
+width: 400px;
+}
+#personal{
+  width: 1140px;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+ 
